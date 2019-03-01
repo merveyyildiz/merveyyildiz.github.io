@@ -37,7 +37,7 @@ sitemap:
 
 				<!-- Header -->
 					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+						<a href="{{ "/" | absolute_url }}" class="logo">MERVE YILDIZ</a>
 					</header>
 
 				<!-- Nav -->
@@ -52,7 +52,7 @@ sitemap:
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-								<img src="georgebernand.jpg alt="quote">
+								<img src="georgebernand.jpg" alt="quote">
 
 							</article>
 
@@ -62,13 +62,15 @@ sitemap:
                 {% assign mod3 = forloop.index | modulo: 3 %}
   								<article>
   									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  										<span class="date">01-03-2019</span>
+  										<h2><a href="/deep.html">Deep Learning Nedir?</a></h2>
   									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
+  									<a href="/deep.html" class="image fit"></a>
+  									<p> “Bugün Yapay Zekanın kötü bir süperzeka olmasından endişelenmek,
+              Mars’taki aşırı nüfus artışından endişelenmek gibidir. Biz henüz
+              bu gezegene iniş yapmadık!” Andrew Ng, Prof.</p>
   									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Devam</a></li>
   									</ul>
   								</article>
                   {% if mod3 == 0 %}
